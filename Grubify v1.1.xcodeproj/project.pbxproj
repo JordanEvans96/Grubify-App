@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172098541DE8EB2000F07340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172098531DE8EB2000F07340 /* AppDelegate.swift */; };
+		172098561DE8EB2000F07340 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172098551DE8EB2000F07340 /* ViewController.swift */; };
+		172098591DE8EB2000F07340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172098571DE8EB2000F07340 /* Main.storyboard */; };
+		1720985B1DE8EB2000F07340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1720985A1DE8EB2000F07340 /* Assets.xcassets */; };
+		1720985E1DE8EB2000F07340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1720985C1DE8EB2000F07340 /* LaunchScreen.storyboard */; };
+		172098691DE8EB2000F07340 /* Grubify_v1_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172098681DE8EB2000F07340 /* Grubify_v1_1Tests.swift */; };
+		172098741DE8EB2000F07340 /* Grubify_v1_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172098731DE8EB2000F07340 /* Grubify_v1_1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172098651DE8EB2000F07340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172098481DE8EB2000F07340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1720984F1DE8EB2000F07340;
+			remoteInfo = "Grubify v1.1";
+		};
+		172098701DE8EB2000F07340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172098481DE8EB2000F07340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1720984F1DE8EB2000F07340;
+			remoteInfo = "Grubify v1.1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172098501DE8EB2000F07340 /* Grubify v1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grubify v1.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172098531DE8EB2000F07340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		172098551DE8EB2000F07340 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		172098581DE8EB2000F07340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1720985A1DE8EB2000F07340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1720985D1DE8EB2000F07340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1720985F1DE8EB2000F07340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172098641DE8EB2000F07340 /* Grubify v1.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grubify v1.1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172098681DE8EB2000F07340 /* Grubify_v1_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grubify_v1_1Tests.swift; sourceTree = "<group>"; };
+		1720986A1DE8EB2000F07340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1720986F1DE8EB2000F07340 /* Grubify v1.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grubify v1.1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172098731DE8EB2000F07340 /* Grubify_v1_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grubify_v1_1UITests.swift; sourceTree = "<group>"; };
+		172098751DE8EB2000F07340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1720984D1DE8EB2000F07340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172098611DE8EB2000F07340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1720986C1DE8EB2000F07340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172098471DE8EB2000F07340 = {
+			isa = PBXGroup;
+			children = (
+				172098521DE8EB2000F07340 /* Grubify v1.1 */,
+				172098671DE8EB2000F07340 /* Grubify v1.1Tests */,
+				172098721DE8EB2000F07340 /* Grubify v1.1UITests */,
+				172098511DE8EB2000F07340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		172098511DE8EB2000F07340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172098501DE8EB2000F07340 /* Grubify v1.1.app */,
+				172098641DE8EB2000F07340 /* Grubify v1.1Tests.xctest */,
+				1720986F1DE8EB2000F07340 /* Grubify v1.1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172098521DE8EB2000F07340 /* Grubify v1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				172098531DE8EB2000F07340 /* AppDelegate.swift */,
+				172098551DE8EB2000F07340 /* ViewController.swift */,
+				172098571DE8EB2000F07340 /* Main.storyboard */,
+				1720985A1DE8EB2000F07340 /* Assets.xcassets */,
+				1720985C1DE8EB2000F07340 /* LaunchScreen.storyboard */,
+				1720985F1DE8EB2000F07340 /* Info.plist */,
+			);
+			path = "Grubify v1.1";
+			sourceTree = "<group>";
+		};
+		172098671DE8EB2000F07340 /* Grubify v1.1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				172098681DE8EB2000F07340 /* Grubify_v1_1Tests.swift */,
+				1720986A1DE8EB2000F07340 /* Info.plist */,
+			);
+			path = "Grubify v1.1Tests";
+			sourceTree = "<group>";
+		};
+		172098721DE8EB2000F07340 /* Grubify v1.1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				172098731DE8EB2000F07340 /* Grubify_v1_1UITests.swift */,
+				172098751DE8EB2000F07340 /* Info.plist */,
+			);
+			path = "Grubify v1.1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1720984F1DE8EB2000F07340 /* Grubify v1.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172098781DE8EB2000F07340 /* Build configuration list for PBXNativeTarget "Grubify v1.1" */;
+			buildPhases = (
+				1720984C1DE8EB2000F07340 /* Sources */,
+				1720984D1DE8EB2000F07340 /* Frameworks */,
+				1720984E1DE8EB2000F07340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grubify v1.1";
+			productName = "Grubify v1.1";
+			productReference = 172098501DE8EB2000F07340 /* Grubify v1.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		172098631DE8EB2000F07340 /* Grubify v1.1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1720987B1DE8EB2000F07340 /* Build configuration list for PBXNativeTarget "Grubify v1.1Tests" */;
+			buildPhases = (
+				172098601DE8EB2000F07340 /* Sources */,
+				172098611DE8EB2000F07340 /* Frameworks */,
+				172098621DE8EB2000F07340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172098661DE8EB2000F07340 /* PBXTargetDependency */,
+			);
+			name = "Grubify v1.1Tests";
+			productName = "Grubify v1.1Tests";
+			productReference = 172098641DE8EB2000F07340 /* Grubify v1.1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1720986E1DE8EB2000F07340 /* Grubify v1.1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1720987E1DE8EB2000F07340 /* Build configuration list for PBXNativeTarget "Grubify v1.1UITests" */;
+			buildPhases = (
+				1720986B1DE8EB2000F07340 /* Sources */,
+				1720986C1DE8EB2000F07340 /* Frameworks */,
+				1720986D1DE8EB2000F07340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172098711DE8EB2000F07340 /* PBXTargetDependency */,
+			);
+			name = "Grubify v1.1UITests";
+			productName = "Grubify v1.1UITests";
+			productReference = 1720986F1DE8EB2000F07340 /* Grubify v1.1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172098481DE8EB2000F07340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jordan Evans";
+				TargetAttributes = {
+					1720984F1DE8EB2000F07340 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 464PAE8GWK;
+						ProvisioningStyle = Automatic;
+					};
+					172098631DE8EB2000F07340 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1720984F1DE8EB2000F07340;
+					};
+					1720986E1DE8EB2000F07340 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1720984F1DE8EB2000F07340;
+					};
+				};
+			};
+			buildConfigurationList = 1720984B1DE8EB2000F07340 /* Build configuration list for PBXProject "Grubify v1.1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 172098471DE8EB2000F07340;
+			productRefGroup = 172098511DE8EB2000F07340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1720984F1DE8EB2000F07340 /* Grubify v1.1 */,
+				172098631DE8EB2000F07340 /* Grubify v1.1Tests */,
+				1720986E1DE8EB2000F07340 /* Grubify v1.1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1720984E1DE8EB2000F07340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1720985E1DE8EB2000F07340 /* LaunchScreen.storyboard in Resources */,
+				1720985B1DE8EB2000F07340 /* Assets.xcassets in Resources */,
+				172098591DE8EB2000F07340 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172098621DE8EB2000F07340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1720986D1DE8EB2000F07340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1720984C1DE8EB2000F07340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172098561DE8EB2000F07340 /* ViewController.swift in Sources */,
+				172098541DE8EB2000F07340 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172098601DE8EB2000F07340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172098691DE8EB2000F07340 /* Grubify_v1_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1720986B1DE8EB2000F07340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172098741DE8EB2000F07340 /* Grubify_v1_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172098661DE8EB2000F07340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1720984F1DE8EB2000F07340 /* Grubify v1.1 */;
+			targetProxy = 172098651DE8EB2000F07340 /* PBXContainerItemProxy */;
+		};
+		172098711DE8EB2000F07340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1720984F1DE8EB2000F07340 /* Grubify v1.1 */;
+			targetProxy = 172098701DE8EB2000F07340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		172098571DE8EB2000F07340 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172098581DE8EB2000F07340 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1720985C1DE8EB2000F07340 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1720985D1DE8EB2000F07340 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		172098761DE8EB2000F07340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		172098771DE8EB2000F07340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172098791DE8EB2000F07340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 464PAE8GWK;
+				INFOPLIST_FILE = "Grubify v1.1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evans.Grubify-v1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1720987A1DE8EB2000F07340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 464PAE8GWK;
+				INFOPLIST_FILE = "Grubify v1.1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evans.Grubify-v1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1720987C1DE8EB2000F07340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Grubify v1.1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evans.Grubify-v1-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grubify v1.1.app/Grubify v1.1";
+			};
+			name = Debug;
+		};
+		1720987D1DE8EB2000F07340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Grubify v1.1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evans.Grubify-v1-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grubify v1.1.app/Grubify v1.1";
+			};
+			name = Release;
+		};
+		1720987F1DE8EB2000F07340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Grubify v1.1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evans.Grubify-v1-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Grubify v1.1";
+			};
+			name = Debug;
+		};
+		172098801DE8EB2000F07340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Grubify v1.1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evans.Grubify-v1-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Grubify v1.1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1720984B1DE8EB2000F07340 /* Build configuration list for PBXProject "Grubify v1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172098761DE8EB2000F07340 /* Debug */,
+				172098771DE8EB2000F07340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172098781DE8EB2000F07340 /* Build configuration list for PBXNativeTarget "Grubify v1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172098791DE8EB2000F07340 /* Debug */,
+				1720987A1DE8EB2000F07340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1720987B1DE8EB2000F07340 /* Build configuration list for PBXNativeTarget "Grubify v1.1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1720987C1DE8EB2000F07340 /* Debug */,
+				1720987D1DE8EB2000F07340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1720987E1DE8EB2000F07340 /* Build configuration list for PBXNativeTarget "Grubify v1.1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1720987F1DE8EB2000F07340 /* Debug */,
+				172098801DE8EB2000F07340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 172098481DE8EB2000F07340 /* Project object */;
+}
